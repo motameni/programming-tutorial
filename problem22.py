@@ -6,4 +6,3 @@ for i in range(len(list)):
     if list[i] == target:
         print(i)
 
-# O(log(n))
