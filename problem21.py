@@ -1,6 +1,6 @@
-a = input()
+a = input() # "2 5 6 8 12"
 
-b = a.split(" ")
+b = a.split(" ") # ["2", "5", "6", "8", "12"]
 
 numbers = []
 
