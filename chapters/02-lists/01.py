@@ -5,4 +5,3 @@ names.append("AmirAli")
 
 for name in names:
     print("Hello,", name, "!")
-    

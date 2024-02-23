@@ -35,9 +35,7 @@ class Rectangle(Shape):
     def __init__(self, a, b):
         self.a = a
         self.b = b
-
-    def get_name(self):
-        return "rectangle"
+        self.set_name("rectangle")
 
     def length(self):
         return (self.a + self.b) * 2
@@ -50,18 +48,14 @@ class Square(Rectangle):
 
     def __init__(self, a):
         super().__init__(a, a)
-
-    def get_name(self):
-        return "square"
+        self.set_name("square")
 
 
 class Circle(Shape):
 
     def __init__(self, r):
         self.r = r
-
-    def get_name(self):
-        return "circle"
+        self.set_name("circle")
 
     def length(self):
         return 2 * 3.14 * self.r
@@ -76,9 +70,7 @@ class Triangle(Shape):
         self.a = a
         self.b = b
         self.c = c
-
-    def get_name(self):
-        return "triangle"
+        self.set_name("triangle")
 
     def length(self):
         return self.a + self.b + self.c
